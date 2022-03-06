@@ -5,10 +5,10 @@ public class DmvSimulator {
 
 		System.out.println("Wecolcome to the DMV");
 
-		for (int x = 1; x >= 100; x++); 
+		for (int x = 1; x >= 200; x++); 
 			
 		{
-			int User = (int) (Math.random() * 100);
+			int User = (int) (Math.random() * 200);
 
 			System.out.println("This is your number in line:" + " " + User);
 
@@ -19,7 +19,7 @@ public class DmvSimulator {
 			while (User != Wait) {
 				System.out.println("Calling:" + " " + Wait);
 				Wait++;
-				if (Wait == 101) {
+				if (Wait == 201) {
 					Wait = 1;
 				}
 			}

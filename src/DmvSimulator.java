@@ -26,9 +26,17 @@ public class DmvSimulator {
 
 			System.out.println("Now calling:" + " " + Wait);
 
-			System.out.println("You do not have the right paper work! Come back next time with the appropriate file so you don't waste my time!");
-
+			if (Math.random() * 100 < 99) {
+				System.out.println("You do not have the right paper work! Come back next time with the appropriate file so you don't waste my time!");
+			}
+				else if (Math.random() * 100 < 1) {
+					System.out.println("I will see you now"); 
+					
+				}
+				
+				
+				
+			}
 		}
 
 	}
-}

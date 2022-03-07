@@ -26,7 +26,7 @@ public class DmvSimulator {
 
 			System.out.println("Now calling:" + " " + Wait);
 
-			System.out.println("You do not have the right paper work! Come back next time with the appropriate file so you don't waste my time!");
+			System.out.println("You do not have the right paper work! Come back next time with the appropriate file so you don't waste my time! MWAHAHAHAHAHA");
 
 		}
 
